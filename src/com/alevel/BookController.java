@@ -65,7 +65,7 @@ public class BookController {
             //Захват массива авторов, в конце надо "стоп".
             System.out.println("Please, enter all book authors. The end - type 'stop'");
             Scanner scanner = new Scanner(System.in);
-            List<String> stringList = new ArrayList<String>();
+            List<String> stringList = new ArrayList<>();
             String srtFromCons;
             while (!(srtFromCons = scanner.nextLine()).equals("stop"))
                 stringList.add(srtFromCons);
