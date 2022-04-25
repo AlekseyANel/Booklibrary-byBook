@@ -1,4 +1,4 @@
-# Booklibrary-byBook
+# Booklibrary
 Task
 Реализуйте консольное CRUD приложение BookLibrary
 Вы должны хранить две сущности - Book and Author.
